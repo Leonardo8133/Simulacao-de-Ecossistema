@@ -52,11 +52,13 @@ Todos os Arquivos .txt marcados com [data] podem ser abertos com o data_visu.py,
     <li><a href="https://pypi.org/project/pathfinfing/"> Pathfinfing <a></li>
     <li>Sklearn (if you use Logistic Regression IA.)</li>
 </ul>
--
-## Para rodar o projeto, simplismente de run no simulation.py
+
 ##### No futuro pretendo adicionar uma opção de treinar os animais novamente.
 
 ### Obrigado por visitar meu primeiro projeto.
+
+
+## Para rodar o código, simplismente de run no simulation.py
 
 
     
