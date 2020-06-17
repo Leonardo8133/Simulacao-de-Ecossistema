@@ -34,7 +34,7 @@ def main(genomes=False, config=False):
 	#game = cl.Game(SCREENSIZE, SCALE, MAP_DATA, OBJ_DATA, NEW_DATA, PATH, seed, genomes, config)
 
 	game = cl.Game(SCREENSIZE, SCALE, MAP_DATA, OBJ_DATA, NEW_DATA, PATH, seed)
-	game.run=False
+	game.run=True
 	game.fastmode=G_FASTMODE
 	
 	tick = G_SPEED

@@ -155,11 +155,11 @@ class Game:
 		self.training=False  
 		en.Ent.training = self.training
 		#---------------------------------------------------
+		self.config = config
 		if self.training:
 			self.neat_apply(bunny, config)
 			self.start_training()
-		else:
-			self.start(config)
+		
 
 	def start(self, config):
 
@@ -432,7 +432,7 @@ class Game:
 			self.tdraw=False
 			#print(pygame.time.get_ticks() - mtime)
 		if self.started:
-			if len(self.ent_list)==0 or len(self.ent_list)>150:
+			if len(self.ent_list)==0 or len(self.ent_list)>150 :
 				self.started=False
 				self.run=False
 						

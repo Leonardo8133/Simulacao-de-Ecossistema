@@ -238,7 +238,7 @@ class HUD:
 					'west':  [(0, 0),(0,0), pygame.Rect(380, 44, 15, 15), "game.addcord(1,1)"]
 				},
 				'misc':{
-					'play':[(160, 524), pygame.Rect(160, 524, 27, 27), "game.start()"],
+					'play':[(160, 524), pygame.Rect(160, 524, 27, 27), "game.start(game.config)"],
 					'ntf': [(28, 59)],
 					'ent': [(298, 59)],
 					'trash':[(400,251)],

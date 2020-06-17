@@ -12,7 +12,7 @@ def pdc(data):
 			return pd.DataFrame.from_dict(data)
 class visualizator:
 	def __init__(self, maps=[]):
-		datafile = open("d4.txt", "r")
+		datafile = open("data_example[data].txt", "r")
 		data = datafile.readline()
 		datafile.close()
 		data = literal_eval(data)
