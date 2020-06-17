@@ -12,7 +12,7 @@ def pdc(data):
 			return pd.DataFrame.from_dict(data)
 class visualizator:
 	def __init__(self, maps=[]):
-		datafile = open("data0.txt", "r")
+		datafile = open("d4.txt", "r")
 		data = datafile.readline()
 		datafile.close()
 		data = literal_eval(data)
@@ -23,19 +23,13 @@ class visualizator:
 		
 
 		
-		#self.pop_map(data)
+		self.pop_map(data)
 		self.population(data)
-		#self.death_map(data)
-		#self.meds(data)
-		#self.agescore(data)
-		#self.ageday(data)
-		#self.bases(data)
-
-
-
-
-		
-		
+		self.death_map(data)
+		self.meds(data)
+		self.agescore(data)
+		self.ageday(data)
+		self.bases(data)
 
 	def bases(self, data):
 		
