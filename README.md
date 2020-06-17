@@ -23,8 +23,9 @@ Visão Geral
     <li>Dados Salvos em DataFrames (Pandas) e Guardados em Pickle</li>
     <li>Visualizalçao dos Dados em Pandas/Matplotlib/Seaborn/Numpy</li>
 </ol>
+
 ##### Observações
-    Por ser meu primeiro projeto, o código pode estar confuso e fora de qualquer padrão conhecido.
+   Por ser meu primeiro projeto, o código pode estar confuso e fora de qualquer padrão conhecido.
     TODA a arte, assim como UI foi feita por mim usando.
     Com exceção do perlin noise e das bibliotecas, nenhuma linha deste projeto foi copiado de qualquer outro lugar.
 
