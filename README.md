@@ -10,7 +10,7 @@ Visão Geral
 <img src="https://github.com/Leonardo8133/Ec-Simulation/blob/master/images/Figure_0.png" width=100%>
 <img src="https://github.com/Leonardo8133/Ec-Simulation/blob/master/images/Figure_1.png" width=30%>
 <img src="https://github.com/Leonardo8133/Ec-Simulation/blob/master/images/Figure_2.png" width=30%>
-<img src="https://github.com/Leonardo8133/Ec-Simulation/blob/master/images/Figure_4.png" width=36%>
+<img src="https://github.com/Leonardo8133/Ec-Simulation/blob/master/images/Figure_4.png" width=30%>
 
 ### Funcionamento:
 
