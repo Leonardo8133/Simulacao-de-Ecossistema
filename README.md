@@ -51,8 +51,9 @@ Todos os Arquivos .txt marcados com [data] podem ser abertos com o data_visu.py,
     <li><a href="https://pypi.org/project/neat-python/"> Neat Python <a></li>  
     <li><a href="https://pypi.org/project/pathfinfing/"> Pathfinfing <a></li>
     <li>Sklearn (if you use Logistic Regression IA.)</li>
-<ul>
-
+</ul>
+-
+## Para rodar o projeto, simplismente de run no simulation.py
 ##### No futuro pretendo adicionar uma opção de treinar os animais novamente.
 
 ### Obrigado por visitar meu primeiro projeto.
