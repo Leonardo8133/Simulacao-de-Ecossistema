@@ -1,0 +1,73 @@
+
+# Game Configs
+
+G_FASTMODE          = False #run the simulation with 3000 ticks per s
+G_SPEED 			= 60  #game speed in tick per second
+G_FOOD_SPAWN_RATE   = 60  #in ticks. (lesser value = more food)
+G_STARTING_FOOD     = 18  #in percent chance for each bush
+G_POPULATION_LIMIT  = 150 
+
+
+# Entities Configs
+
+E_BUNNY_INC_HUNGRY  = 0.020
+E_BUNNY_INC_THIRST  = 0.025
+E_BUNNY_INC_LOVE    = 0.020
+E_BUNNY_INC_REST    = 0.025
+
+E_BUNNY_BASE_HUNGRY = 100
+E_BUNNY_BASE_THIRST = 100
+E_BUNNY_BASE_LOVE   = 100
+E_BUNNY_BASE_REST   = 100
+
+E_BUNNY_INF_SPEED   = 0
+E_BUNNY_INF_VIEW    = 6
+E_BUNNY_INF_CHILD   = 8
+
+E_FOX_INC_HUNGRY  = 0.030
+E_FOX_INC_THIRST  = 0.030
+E_FOX_INC_LOVE    = 0.020
+E_FOX_INC_REST    = 0.030
+
+E_FOX_BASE_HUNGRY = 200
+E_FOX_BASE_THIRST = 200
+E_FOX_BASE_LOVE   = 100
+E_FOX_BASE_REST   = 200
+
+E_FOX_INF_SPEED   = 0
+E_FOX_INF_VIEW    = 10
+E_FOX_INF_CHILD   = 2
+
+E_STARTING_HUNGRY = 50 
+E_STARTING_THIRST = 50
+E_STARTING_LOVE   = 50
+E_STARTING_REST   = 0
+
+E_LOVE_DELAY      = 4000
+
+E_COUNTER_EAT   = 230
+E_COUNTER_DRINK = 220
+E_COUNTER_LOVE  = 120
+E_COUNTER_REST  = 300
+E_COUNTER_HUNT  = 120
+
+E_SCORE_EAT   = 10
+E_SCORE_DRINK = 10
+E_SCORE_LOVE  = 100
+
+E_AGE_TICK  = 600 # 10 seconds at 60fps
+E_AGE_DEATH = 50  # age that entitie die from old
+E_AGE_LOVE  = 12  # age that entitie starts to reproduce
+
+E_DEATH_RATE = 0.5
+
+# Map Generation # WARNING # DO NOT CHANGE VALUES
+
+M_CHANCE_TREE = 5
+M_CHANCE_BUSH = 14
+
+M_COVER_WATER = -0.15 #(HIGHER = MORE WATER)
+M_COVER_SAND  = -0.05
+M_COVER_GRASS =  0.25
+M_COVER_EARTH =  0.6
+

@@ -47,11 +47,11 @@ class Action:
 			if Action.data['ent'][self.cord[0] + x][self.cord[1] + y][0]:
 				for i, n in enumerate(Action.ent_list):
 					if n.id==ids and n.specie!='fox':
-						# del(Action.ent_list[i])
+						del(Action.ent_list[i])
 						Action.sdraw=True
 						self.score+=20
 						self.genome.fitness += (self.needs['hungry'][0]/self.needs['hungry'][1]-0.5)*35	
-						#self.data['ent'][n.cord[0]][n.cord[1]].remove(n.id)
+						self.data['ent'][n.cord[0]][n.cord[1]].remove(n.id)
 						HUD.bdraw=True
 						self.queue=[]
 						HUD.deadt[n.specie].append(("hunt", n.specie, n.id, n.cord, n.score))

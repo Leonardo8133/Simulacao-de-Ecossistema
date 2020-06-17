@@ -9,6 +9,7 @@ import os
 import neat
 import pickle as pk
 from copy import copy
+from game_config import *
 
 
 
@@ -17,43 +18,6 @@ from copy import copy
 
 
 def run(config_file):
-	# # Load configuration.
-	# config = neat.Config(neat.DefaultGenome, neat.DefaultReproduction,
-	# 					 neat.DefaultSpeciesSet, neat.DefaultStagnation,
-	# 					 config_file)
-
-	# # fl = open('bunny_neat_1.pkl', 'rb')
-	# # winner = pk.load(fl)
-	# # fl.close()
-	# # # print('\nBest genome:\n{!s}'.format(winner))
-	# # Create the population, which is the top-level object for a NEAT run.
-	# #p = neat.Checkpointer.restore_checkpoint('new_run99')
-
-	# p = neat.Population(config)
-	# # winner.fitness=0
-	# # for x in range(10):
-	# # 	p.population[x+1].connections = copy(winner.connections)
-	# # 	p.population[x+1].nodes = copy(winner.nodes)
-	
-	
-	# p.add_reporter(neat.StdOutReporter(True))
-	# stats = neat.StatisticsReporter()
-
-	# p.add_reporter(stats)
-	# pe = neat.ParallelEvaluator(4, main)
-	# checkpointer = neat.Checkpointer(20, None, 'fx_run')
-	
-	# p.add_reporter(checkpointer)
-	# winner = p.run(reset_run, 101)
-	# # pe.stop()
-
-	#   # Display the winning genome.
-	# print('\nBest genome:\n{!s}'.format(winner))
-
-	# print("Thread Finished")
-	# file= open("bsf.pkl", 'wb')
-	# pk.dump(winner, file)
-	# file.close()
 	pass
 	
 
@@ -70,10 +34,10 @@ def main(genomes=False, config=False):
 	#game = cl.Game(SCREENSIZE, SCALE, MAP_DATA, OBJ_DATA, NEW_DATA, PATH, seed, genomes, config)
 
 	game = cl.Game(SCREENSIZE, SCALE, MAP_DATA, OBJ_DATA, NEW_DATA, PATH, seed)
-	game.run=True
-	game.fastmode=True
+	game.run=False
+	game.fastmode=G_FASTMODE
 	
-	tick = 60
+	tick = G_SPEED
 	if game.fastmode:
 		tick=3000
 	while game.run:
