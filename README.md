@@ -10,7 +10,7 @@ Visão Geral
 <img src="https://github.com/Leonardo8133/Ec-Simulation/blob/master/images/Figure_0.png" width=100%>
 <img src="https://github.com/Leonardo8133/Ec-Simulation/blob/master/images/Figure_1.png" width=30%>
 <img src="https://github.com/Leonardo8133/Ec-Simulation/blob/master/images/Figure_2.png" width=30%>
-<img src="https://github.com/Leonardo8133/Ec-Simulation/blob/master/images/Figure_4.png" width=40%>
+<img src="https://github.com/Leonardo8133/Ec-Simulation/blob/master/images/Figure_4.png" width=36%>
 
 ### Funcionamento:
 
@@ -53,7 +53,9 @@ Todos os Arquivos .txt marcados com [data] podem ser abertos com o data_visu.py,
     <li>Sklearn (if you use Logistic Regression IA.)</li>
 <ul>
 
-No futuro pretendo adicionar uma opção de treinar os animais novamente.
-Obrigado por visitar meu primeiro projeto.
+##### No futuro pretendo adicionar uma opção de treinar os animais novamente.
+
+### Obrigado por visitar meu primeiro projeto.
+
 
     
